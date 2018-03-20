@@ -1,0 +1,35 @@
+{
+    "app_name": "tenmsdesktop",
+    "main": "index.html",
+    "name": "10 Mississippi",
+    "nodejs": true,
+    "version": "1.0.0",
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "output",
+        "force_download": false,
+        "mac-x64": true,
+        "nw_compression_level": 0,
+        "nw_version": "0.27.0-beta1",
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": "",
+        "windows-x32": true,
+        "windows-x64": true
+    },
+    "webkit": {},
+    "window": {
+        "exe_icon": "icon.png",
+        "height": 500,
+        "icon": "icon.png",
+        "id": "tenmsdesktop",
+        "mac_icon": "icon.png",
+        "position": "center",
+        "title": "10 Mississippi",
+        "toolbar": true,
+        "width": 1200
+    }
+}

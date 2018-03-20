@@ -1,0 +1,100 @@
+{
+    "frames": [
+
+        {
+            "filename": "blanketover03",
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1200,
+                "h": 500
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1200,
+                "h": 500
+            },
+            "sourceSize": {
+                "w": 1200,
+                "h": 500
+            }
+},
+        {
+            "filename": "blanketover02",
+            "frame": {
+                "x": 1,
+                "y": 503,
+                "w": 1200,
+                "h": 500
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1200,
+                "h": 500
+            },
+            "sourceSize": {
+                "w": 1200,
+                "h": 500
+            }
+},
+        {
+            "filename": "blanketover01",
+            "frame": {
+                "x": 1,
+                "y": 1005,
+                "w": 1200,
+                "h": 500
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1200,
+                "h": 500
+            },
+            "sourceSize": {
+                "w": 1200,
+                "h": 500
+            }
+},
+        {
+            "filename": "blanketover00",
+            "frame": {
+                "x": 1,
+                "y": 1507,
+                "w": 1200,
+                "h": 500
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1200,
+                "h": 500
+            },
+            "sourceSize": {
+                "w": 1200,
+                "h": 500
+            }
+}],
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "blanketover-1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1202,
+            "h": 2008
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:6df9e5351390d070e8c4aca204a6fc22:f149c1ddeb2b32c24f3d101935fcb068:063ff2d1a4f4dbb48fd23feff15c31c1$"
+    }
+}

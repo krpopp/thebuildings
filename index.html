@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<head>
+    <meta charset="utf-8" />
+    <title>10 MS</title>
+    <script src="phaser.min.js"></script>
+    <script src="assets/scripts/Boot.js"></script>
+    <script src="assets/scripts/Preloader.js"></script>
+    <script src="assets/scripts/Manager.js"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            overflow: hidden
+        }
+        
+        #frame {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 100%;
+            overflow: hidden
+        }
+        
+        #stage {
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            overflow: hidden;
+            cursor: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <body bgcolor="#000000">
+        <div id="content" />
+        <div id="orientation"></div>
+    </body>
+</body>
+
+<div id="stage"></div>
+
+<script type="text/javascript">
+    var game = new Phaser.Game(1200, 800, Phaser.CANVAS, 'stage');
+
+    window.onclick = function() {
+        window.focus();
+    }
+
+    window.onload = function() {
+        window.focus();
+
+
+        game.state.add('Boot', SceneGame.Boot);
+        game.state.add('Preloader', SceneGame.Preloader);
+        game.state.add('MainMenu', SceneGame.MainMenu);
+        game.state.add('Manager', SceneGame.Manager);
+
+
+        game.state.start('Boot');
+
+    }
+
+</script>
+
+<div align="center">
+</div>
+
+<!--<div align = "center"><button onclick="myFunction()">Dev Comments</button>
+    <p id="demo"></p>
+</div>-->
+
+
+<script>
+
+
+</script>
+
+</html>
+
+<body>
+
+
+
+
+</body>

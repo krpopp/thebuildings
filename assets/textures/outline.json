@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "outline_0000_Layer-3.png",
+	"frame": {"x":1,"y":1,"w":733,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":733,"h":180},
+	"sourceSize": {"w":733,"h":180}
+},
+{
+	"filename": "outline_0001_Layer-2.png",
+	"frame": {"x":1,"y":183,"w":733,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":733,"h":180},
+	"sourceSize": {"w":733,"h":180}
+},
+{
+	"filename": "outline_0002_Layer-1.png",
+	"frame": {"x":1,"y":365,"w":733,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":733,"h":180},
+	"sourceSize": {"w":733,"h":180}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "outline.png",
+	"format": "RGBA8888",
+	"size": {"w":735,"h":546},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:797c04c1ea839ae5dab1af5280fda80c:c294f2e23cbed4324cc85dea0a0fea5c:8abece2d74325159e3ca6f8fec67fd80$"
+}
+}
